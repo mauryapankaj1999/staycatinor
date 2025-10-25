@@ -1,0 +1,152 @@
+@media (min-width: 992px) and (max-width: 1280px) {
+  .aminitesweb li::after {
+    content: unset;
+  }
+
+
+  .locationmap iframe {
+    width: 100%;
+    height: 300px !important;
+  }
+
+
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+  /* .allgetway_slider .swiper-button-prev {
+    left: 94%;
+  } */
+
+
+  .mySwiper_mian .swiper-button-prev,
+  .mySwiper_mian .swiper-button-next {
+    width: 22px !important;
+    height: 24px !important;
+    object-fit: contain;
+    background-size: 100%;
+  }
+
+  .aminitesweb li::after {
+    background-color: #c2c2c26b;
+    top: 2px;
+    right: -6px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1440px) {
+
+  .customedest::after {
+    height: 235px;
+    width: 242px;
+    left: -3px;
+    position: absolute;
+    top: 31px;
+  }
+
+  .customedest::before {
+    height: 237px;
+    width: 246px;
+    right: -9px;
+    position: absolute;
+    bottom: -27px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hidemenu {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .showmenu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .cardbet li::after {
+    content: unset;
+  }
+
+  .homesliderinmobile .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+  }
+
+  .homesliderinmobile .swiper-pagination-bullet.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+
+  .customedest::before,
+  .customedest::after {
+    background-image: none;
+    display: none;
+  }
+
+  .checkdateuser {
+    display: none !important;
+  }
+
+  .roomlayout {
+    padding-top: 2.8rem !important;
+  }
+
+  .roomlayout .swiper-button-prev,
+  .roomlayout .swiper-button-next {
+    top: 10%;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .homeSlider .swiper-pagination {
+    display: none;
+  }
+
+  .rdrCalendarWrapper {
+    top: 40%;
+  }
+
+  .bggradentcolr {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgfullborder {
+    width: 45px;
+    height: 45px;
+  }
+
+  .locationmap iframe {
+    width: 100%;
+    height: 180px;
+  }
+
+  .contactpagemap iframe {
+    width: 100%;
+    height: 180px;
+    position: relative;
+  }
+
+  .needsectino6 {
+    flex-wrap: wrap;
+  }
+
+  .needsectino6 .col4 {
+    width: 33%;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .checkdateuser {
+    display: none !important;
+  }
+
+  /* .shadow-menu {
+    position: unset;
+  } */
+}
